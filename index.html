@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calulator</title>
+<!-- Linking Google fonts here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Bree+Serif&family=Lobster&family=Michroma&family=Prompt&display=swap" rel="stylesheet">
+
+<!-- linking CSS here -->
+    <link rel="stylesheet" href="./age_calculator.css" />
+  </head>
+  <body>
+    <div id="container">                          <!-- container starts --> 
+      <div id="up">            <!-- up starts -->   
+        <h3 id="heading">Age Calculator</h3>
+      </div>                       <!-- up ends -->
+      
+      <form>  <!-- form tag starts -->
+        <div id="middle">              <!-- middle starts -->
+          <div id="nameBox">
+            <input type="text" id="userName" placeholder="Type Your Name" />
+          </div>
+          <div id="inputBox">        <!-- inputBox starts -->  
+            <div id="dateBox">
+              Date
+              <input type="text" id="date" placeholder="dd" />
+            </div>
+            <div id="monthBox">
+              Month
+              <input type="text" id="month" placeholder="mm" />
+            </div>
+            <div id="yearBox">
+              Year
+              <input type="text" id="year" placeholder="yyyy" />
+            </div>
+          </div>     <!-- inputBox ends -->         
+          
+          <div id="submitBox">        <!-- submitBox starts --> 
+            <input type="button" name="submit" value="Submit"  id="btn" /> 
+          </div>                  <!-- submitBox ends -->
+          
+        </div>             <!-- middle ends -->   
+      </form>  <!-- form tag ends -->
+      <div id="down"></div>    <!-- down starts/ends -->
+      
+    </div>          <!-- container ends -->
+   
+
+    <!--  Linking javascript file here   -->
+    <script src="./age_calculator.js"></script>
+  </body>
+</html>
